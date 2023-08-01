@@ -1,0 +1,15 @@
+const express = require('express')
+const app = express()
+require('dotenv').config()
+const CategoryRouter = require('./apisec/Category/Router')
+
+const port = process.env.SERVER_PORT || 3200
+
+app.use(express.json())
+app.use('/api', CategoryRouter)
+
+
+
+app.listen(port, () => {
+    console.log(`Example app listening on port ${port}`)
+})
