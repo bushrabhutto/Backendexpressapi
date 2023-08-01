@@ -1,0 +1,18 @@
+{
+  "name": "backendexpressapi",
+  "version": "1.0.0",
+  "description": "\"my api using expressjs\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "BushraBhutto",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.3.1",
+    "jsonwebtoken": "^9.0.1",
+    "mongoos": "^0.0.1-security",
+    "nodemon": "^3.0.1"
+  }
+}
